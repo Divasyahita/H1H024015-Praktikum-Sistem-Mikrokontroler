@@ -46,7 +46,7 @@ Dimulai dari pin besar ke kecil (7 → 2), lalu LED menyala berurutan dan member
 #### 4. Buatkan program agar LED menyala tiga LED kanan dan tiga LED kiri secara bergantian dan berikan penjelasan disetiap baris kode nya dalam bentuk README.md!
 
 ```cpp
-int timer = 500; // Waktu delay
+int timer = 500; // delay
 
 void setup() {
   for (int pin = 2; pin <= 7; pin++) {
@@ -55,29 +55,29 @@ void setup() {
 }
 
 void loop() {
-  // Nyalakan LED kiri
+  // LED kiri nyala
   digitalWrite(2, HIGH);
   digitalWrite(3, HIGH);
   digitalWrite(4, HIGH);
 
-  // Matikan LED kanan
+  // LED kanan nyala
   digitalWrite(5, LOW);
   digitalWrite(6, LOW);
   digitalWrite(7, LOW);
 
   delay(timer);
 
-  // Matikan semua LED
+  // semua LED mati
   for (int pin = 2; pin <= 7; pin++) {
     digitalWrite(pin, LOW);
   }
 
-  // Nyalakan LED kanan
+  // LED kanan nyala
   digitalWrite(5, HIGH);
   digitalWrite(6, HIGH);
   digitalWrite(7, HIGH);
 
-  // Matikan LED kiri
+  // LED kiri mati
   digitalWrite(2, LOW);
   digitalWrite(3, LOW);
   digitalWrite(4, LOW);
