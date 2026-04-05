@@ -1,5 +1,5 @@
 ## PERTEMUAN 1
-Percobaan 1A: Percabangan
+**Percobaan 1A: Percabangan**
 
 Pertanyaan Praktikum:
 1. Pada kondisi apa program masuk ke blok if?
@@ -61,17 +61,17 @@ Pertanyaan Praktikum:
     }
    }
 
-Percobaan 2A: Perulangan
+**Percobaan 2A: Perulangan**
 
 Pertanyaan Praktikum:
 1. Gambarkan rangkaian schematic 5 LED running yang digunakan pada percobaan!
-- LED 1 → Pin 2 Arduino
-- LED 2 → Pin 3 Arduino
-- LED 3 → Pin 4 Arduino
-- LED 4 → Pin 5 Arduino
-- LED 5 → Pin 6 Arduino
-- Setiap LED diseri dengan resistor 220Ω
-- Kaki negatif LED → GND
+   - LED 1 → Pin 2 Arduino
+   - LED 2 → Pin 3 Arduino
+   - LED 3 → Pin 4 Arduino
+   - LED 4 → Pin 5 Arduino
+   - LED 5 → Pin 6 Arduino
+   - Setiap LED diseri dengan resistor 220Ω
+   - Kaki negatif LED → GND
 
   Rangkaian ini memungkinkan setiap LED dikontrol secara individu melalui pin digital Arduino.
 
