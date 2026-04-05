@@ -25,7 +25,7 @@ for (int ledPin = 2; ledPin < 8; ledPin++)
 
 Penjelasan:
 
-* Dimulai dari pin kecil ke besar (2 → 7), lalu LED menyala satu per satu dan memberikan efek berjalan ke kanan
+Dimulai dari pin kecil ke besar (2 → 7), lalu LED menyala satu per satu dan memberikan efek berjalan ke kanan
 
 ---
 
@@ -39,7 +39,7 @@ for (int ledPin = 7; ledPin >= 2; ledPin--)
 
 Penjelasan:
 
-* Dimulai dari pin besar ke kecil (7 → 2), lalu LED menyala berurutan dan memberikan efek berjalan ke kiri
+Dimulai dari pin besar ke kecil (7 → 2), lalu LED menyala berurutan dan memberikan efek berjalan ke kiri
 
 ---
 
@@ -97,8 +97,8 @@ void loop() {
 
 * LED dibagi menjadi dua bagian:
 
-  * Kiri → pin 2, 3, 4
-  * Kanan → pin 5, 6, 7
+  Kiri → pin 2, 3, 4
+  Kanan → pin 5, 6, 7
 * Program menyalakan kiri → mati → kanan → mati
 * Menghasilkan efek **bergantian kiri dan kanan**
 
