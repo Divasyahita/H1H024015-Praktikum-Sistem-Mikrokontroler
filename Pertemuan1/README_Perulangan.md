@@ -1,4 +1,4 @@
-## Percobaan 2A: Perulangan (Looping)
+## Percobaan 2A: Perulangan
 
 ---
 
