@@ -72,7 +72,7 @@ void loop() {
     if (timeDelay >= 1000) {
       delay(2000);      // Jeda sebelum mati
       timeDelay = 1000; // Reset
-      faseTurun = true; // Ulang siklus
+      faseTurun = true; // ulang
     }
   }
 }
