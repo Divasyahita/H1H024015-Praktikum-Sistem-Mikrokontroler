@@ -93,7 +93,7 @@ void loop() {
 
 ---
 
-### 🧠 Penjelasan Program
+### Penjelasan Program
 
 * LED dibagi menjadi dua bagian:
 
