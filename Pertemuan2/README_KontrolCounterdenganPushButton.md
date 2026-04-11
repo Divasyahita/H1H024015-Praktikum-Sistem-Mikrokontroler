@@ -3,14 +3,13 @@
 
 ---
 
-## 1. Rangkaian Schematic
+## 1. Gambarkan rangkaian schematic yang digunakan pada percobaan!
 
 Rangkaian terdiri dari:
 - Arduino Uno
 - Seven Segment
 - Resistor 220Ω
-- 1 Push Button (awal percobaan)
-- 2 Push Button (modifikasi)
+- 1 Push Button 
 - Breadboard & kabel jumper  
 
 ### Konfigurasi Pin Seven Segment
@@ -27,8 +26,7 @@ Rangkaian terdiri dari:
 | dp | 4 |
 
 ### Push Button
-- Button 1 → Pin 2
-- Button 2 (modifikasi) → Pin 3  
+- Button → Pin 2
 - Koneksi ke GND (menggunakan INPUT_PULLUP)
 
 <img width="650" height="450" alt="image" src="https://github.com/user-attachments/assets/3ff106bd-759c-4014-bee5-bfc91dc4a48a" />
@@ -74,7 +72,6 @@ Tombol 2 → Decrement (-)
 ## 🔧 Source Code
 
 ```cpp
-// Pin seven segment
 const int segmentPins[8] = {7, 6, 5, 11, 10, 8, 9, 4};
 
 // Push button
@@ -84,7 +81,6 @@ const int btnDown = 3;
 // Variabel counter
 int num = 0;
 
-// Pola angka 0-9
 byte digitPattern[10][8] = {
   {1,1,1,1,1,1,0,0}, // 0
   {0,1,1,0,0,0,0,0}, // 1
@@ -99,33 +95,28 @@ byte digitPattern[10][8] = {
 };
 
 void setup() {
-  // Set pin segment sebagai OUTPUT
   for (int i = 0; i < 8; i++) {
     pinMode(segmentPins[i], OUTPUT);
   }
 
-  // Set button sebagai INPUT_PULLUP
   pinMode(btnUp, INPUT_PULLUP);
   pinMode(btnDown, INPUT_PULLUP);
 }
 
 void loop() {
 
-  // Jika tombol UP ditekan
   if (digitalRead(btnUp) == LOW) {
     num++;
     if (num > 9) num = 0; // reset ke 0
     delay(200); // debounce
   }
 
-  // Jika tombol DOWN ditekan
   if (digitalRead(btnDown) == LOW) {
     num--;
     if (num < 0) num = 9; // kembali ke 9
     delay(200); // debounce
   }
 
-  // Tampilkan angka ke seven segment
   for (int i = 0; i < 8; i++) {
     digitalWrite(segmentPins[i], digitPattern[num][i]);
   }
