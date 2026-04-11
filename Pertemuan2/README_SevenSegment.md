@@ -26,7 +26,7 @@ Rangkaian menggunakan:
 
 Setiap pin Arduino dihubungkan ke segmen melalui resistor.
 
-<img width="650" height="450" alt="image" src="https://github.com/user-attachments/assets/c4f4c61e-a816-408c-ba9d-4a30f0322212" />
+<img width="650" height="450" alt="image" src="https://github.com/user-attachments/assets/402967ba-cf23-41e5-af82-bb296f1ef44e" />
 
 <img width="650" height="450" alt="image" src="https://github.com/user-attachments/assets/df541bea-5f47-4859-8e71-65022b94d7cb" />
 
