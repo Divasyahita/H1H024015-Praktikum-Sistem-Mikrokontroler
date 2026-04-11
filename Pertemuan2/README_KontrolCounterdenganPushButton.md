@@ -31,8 +31,11 @@ Rangkaian terdiri dari:
 - Button 2 (modifikasi) → Pin 3  
 - Koneksi ke GND (menggunakan INPUT_PULLUP)
 
+<img width="650" height="450" alt="image" src="https://github.com/user-attachments/assets/3ff106bd-759c-4014-bee5-bfc91dc4a48a" />
+
 <img width="650" height="450" alt="image" src="https://github.com/user-attachments/assets/f4d83e7a-bfb9-419b-9bc2-e513235b5820" />
-<img width="650" height="450" alt="image" src="https://github.com/user-attachments/assets/f4d83e7a-bfb9-419b-9bc2-e513235b5820" />
+
+Link Tinkercad ada di sini: https://www.tinkercad.com/things/8mdW2rfbE50-kontrol-counter-dengan-push-button?sharecode=0qpuVYCPW20DIaiI8WWTz_olSK_Su673AGhC3Rc_Hpg
 
 ---
 
