@@ -6,6 +6,12 @@ Komunikasi I2C bekerja menggunakan dua jalur utama yaitu SDA (data) dan SCL (clo
 
 Setiap perangkat I2C memiliki alamat unik, misalnya LCD biasanya menggunakan alamat 0x27 atau 0x20. Arduino akan mengirim data ke alamat tersebut sehingga hanya LCD yang dituju yang merespon. Dengan metode ini, komunikasi menjadi lebih efisien karena hanya membutuhkan dua kabel meskipun terdapat banyak perangkat.
 
+Rangkaian
+<img width="804" height="545" alt="image" src="https://github.com/user-attachments/assets/2557108a-7f35-42f9-9b29-517f6387f503" />
+<img width="804" height="545" alt="WhatsApp Image 2026-04-14 at 09 55 36" src="https://github.com/user-attachments/assets/c7b3eb32-ac95-4803-b202-c53b56bf34f2" />
+
+Link tinkercad: https://www.tinkercad.com/things/0FkEHcdi3NA-modul-3-praktikum-sismik?sharecode=MlJSKxaL2hCwFRMVfXawMzO-SujGVEcE5-GCEDpsMuQ
+
 ---
 
 ## 2. Konfigurasi Pin Potensiometer
@@ -71,6 +77,9 @@ void loop() {
 }
 
 ```
+Link Tinkercad: https://www.tinkercad.com/things/0FkEHcdi3NA-modul-3-praktikum-sismik?sharecode=MlJSKxaL2hCwFRMVfXawMzO-SujGVEcE5-GCEDpsMuQ
+
+---
 
 ## 4. Tabel Hasil Pengamatan
 
