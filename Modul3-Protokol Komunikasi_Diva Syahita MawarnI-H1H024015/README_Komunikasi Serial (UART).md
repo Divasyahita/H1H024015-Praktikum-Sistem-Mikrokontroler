@@ -91,5 +91,3 @@ Pada program ini digunakan fungsi `millis()` sebagai pengganti `delay()` karena 
 Jika menggunakan `delay()`, maka selama waktu delay berlangsung, seluruh proses dalam program akan berhenti sementara. Hal ini menyebabkan Arduino tidak dapat menerima atau memproses input baru, sehingga sistem menjadi kurang responsif.
 
 Sebaliknya, dengan menggunakan `millis()`, LED tetap dapat berkedip secara periodik tanpa menghentikan jalannya program utama. Arduino tetap bisa membaca data serial secara real-time, sehingga sistem menjadi lebih efisien dan responsif.
-
-Dengan demikian, penggunaan `millis()` lebih disarankan untuk sistem yang membutuhkan multitasking atau respon cepat terhadap input.
