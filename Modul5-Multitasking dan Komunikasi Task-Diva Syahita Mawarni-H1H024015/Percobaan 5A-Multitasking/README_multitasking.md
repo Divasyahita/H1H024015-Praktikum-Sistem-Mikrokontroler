@@ -1,3 +1,9 @@
+## Percobaan 1 Analog to Digital Converter (ADC)
+1. Persiapan bahan
+2. Membuat rangkaian yang menghubungkan Arduino
+   <img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/5669bfb9-96b0-4d81-9fce-2f31b0a4b417" />
+
+
 # Pertanyaan Praktikum
 
 ## 1. Apakah ketiga task berjalan secara bersamaan atau bergantian? Jelaskan mekanismenya!
@@ -71,21 +77,22 @@ Setelah task dibuat, FreeRTOS scheduler otomatis mengatur pergantian eksekusi an
 ---
 
 ## 3. Modifikasi Program dengan Potensiometer untuk Mengontrol Kecepatan LED
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/8aa5b23b-8f6f-4d67-8b37-2bf368926d82" />
 
 ### Program Modifikasi
 
 ```cpp
 #include <Arduino_FreeRTOS.h>
 
-// ===================== PIN =====================
+// PIN 
 const int potPin = A0;
 const int led1   = 8;
 const int led2   = 7;
 
-// ===================== GLOBAL =====================
+// GLOBAL 
 int delayValue = 200; // default
 
-// ===================== TASK =====================
+// TASK 
 void TaskReadPot(void *pvParameters);
 void TaskBlink1(void *pvParameters);
 void TaskBlink2(void *pvParameters);
@@ -108,7 +115,7 @@ void loop() {
   // kosong
 }
 
-// ===================== TASK READ POT =====================
+// TASK READ POT 
 void TaskReadPot(void *pvParameters) {
   int potValue;
 
@@ -127,7 +134,7 @@ void TaskReadPot(void *pvParameters) {
   }
 }
 
-// ===================== TASK BLINK 1 =====================
+// TASK BLINK 1 
 void TaskBlink1(void *pvParameters) {
   for (;;) {
     digitalWrite(led1, HIGH);
@@ -138,7 +145,7 @@ void TaskBlink1(void *pvParameters) {
   }
 }
 
-// ===================== TASK BLINK 2 =====================
+// TASK BLINK 2
 void TaskBlink2(void *pvParameters) {
   for (;;) {
     digitalWrite(led2, HIGH);
