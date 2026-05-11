@@ -3,6 +3,10 @@
 2. Membuat rangkaian yang menghubungkan Arduino
    <img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/5669bfb9-96b0-4d81-9fce-2f31b0a4b417" />
 
+# Wiring
+   <img width="828" height="731" alt="Screenshot 2026-05-11 113601" src="https://github.com/user-attachments/assets/44593e29-86c9-44af-a851-b657ad767bf4" />
+
+Link Tinkercad: https://www.tinkercad.com/things/llwZZFQntUw-wiring-diagram-multitasking-led-dengan-rtos?sharecode=e1a4j2a9O3u-Nu107HDgiimI-Mye3RdMDD4EKliihFk
 
 # Pertanyaan Praktikum
 
