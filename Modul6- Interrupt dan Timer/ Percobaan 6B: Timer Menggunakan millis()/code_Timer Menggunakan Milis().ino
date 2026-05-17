@@ -13,7 +13,7 @@ void loop() {
     // Ambil waktu saat ini
     unsigned long currentMillis = millis();
 
-    // Cek apakah sudah melewati interval
+    // Ini untuk menge-cek apakah sudah melewati interval
     if (currentMillis - previousMillis >= interval) {
 
         previousMillis = currentMillis; // simpan waktu terakhir
